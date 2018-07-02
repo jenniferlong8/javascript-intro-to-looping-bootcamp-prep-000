@@ -10,7 +10,7 @@ function forLoop(array) {
   }
     return array
 }
-// count down from passed in number to 0 
+// count down from passed in number to 0
 function whileLoop(n) {
   let countdown = n;
   while (countdown > 0) {
@@ -18,7 +18,7 @@ function whileLoop(n) {
   }
     return "done"
 }
-//
+// 
 function maybeTrue() {
   return Math.random() >= 0.5
 }
