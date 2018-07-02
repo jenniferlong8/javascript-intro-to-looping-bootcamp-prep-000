@@ -18,7 +18,7 @@ function whileLoop(n) {
   }
     return "done"
 }
-// use maybeTrue() as condition; remove elements 
+// use maybeTrue() as condition; remove elements
 // from the array until array is empty
 function maybeTrue() {
   return Math.random() >= 0.5
