@@ -1,3 +1,4 @@
+// start counting from 0, add string to array 25 times
 function forLoop(array) {
   for (let i = 0; i < 25; i++) {
     if (i === 1) {
@@ -9,7 +10,7 @@ function forLoop(array) {
   }
     return array
 }
-
+// 
 function whileLoop(n) {
   let countdown = n;
   while (countdown > 0) {
@@ -17,7 +18,7 @@ function whileLoop(n) {
   }
     return "done"
 }
-
+//
 function maybeTrue() {
   return Math.random() >= 0.5
 }
